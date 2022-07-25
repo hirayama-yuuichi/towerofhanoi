@@ -3,11 +3,16 @@
 
 """
 
+"""
+変更した
+"""
+
+
 import sys
 
 TOTAL_DISKS = 3  # 円盤の数
 
-#    SOLVED_TOWER=[x for x in range(TOTAL_DESKS,-1,-1) ] #正解の塔のイメージ
+# SOLVED_TOWER=[x for x in range(TOTAL_DESKS,-1,-1) ] #正解の塔のイメージ
 SOLVED_TOWER = list(range(TOTAL_DISKS, 0, -1))  # 正解の塔のイメージ
 
 
